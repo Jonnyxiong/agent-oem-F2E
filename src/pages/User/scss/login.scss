@@ -1,0 +1,65 @@
+@import '../../assets/styles/config.scss';
+
+.login-header{
+    width: 100%;
+    background-color: #FFF;
+    padding:15px 0;
+}
+.login-banner{
+    height:660px;
+    width:100%;
+    background-position: center;
+    background-image: url(./images/logo-banner.jpg);
+    .w1200{
+
+    }
+}
+.login-form{
+    margin-top:90px;
+    padding:35px;
+    height:480px;
+    background-color: #FFF;
+    h3{
+        font-weight:normal;
+        font-size: 24px;
+        text-align: center;
+    }
+    h3.login{
+        line-height: 105px;
+    }
+    h3.reg{
+        line-height: 60px;
+    }
+    .input-box{
+        width: 330px;
+    }
+    .auth-code{
+        padding-right:120px;
+        a{
+            width:120px;
+            position: absolute;
+            top:0;
+            right:0;
+        }
+    }
+    .auth-img{
+        padding-right: 120px;
+        img{
+            position: absolute;
+            width:120px;
+            height:38px;
+            top:0;
+            right:0;
+        }
+    }
+    .bk{
+        display: block;
+        width:100%;
+    }
+    .confirm{
+        margin-top:75px;
+    }
+    .right-link{
+        border-left:1px solid $btn-green;
+    }
+}
